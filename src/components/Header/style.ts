@@ -33,7 +33,7 @@ export const DivContainer = styled.div`
 `;
 
 export const DivCartHeader = styled.div`
-  width: 5%;
+  width: max-content;
 
   > button {
     background-color: var(--White-0);
@@ -43,6 +43,7 @@ export const DivCartHeader = styled.div`
     display: flex;
     width: 100%;
     padding: 0.6rem;
+    gap: 0.5rem;
     justify-content: space-between;
     align-items: center;
   }
